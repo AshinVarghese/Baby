@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_color"
+    tools:context=".BreastFeedingActivity">
+
+<!--    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/fragment_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo_semibold"
+            android:id="@+id/lastUsed_tv"
+            android:text="Last Used :"
+            android:layout_marginTop="120dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_round">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/left_tv"
+                    android:text="Left"
+                    app:fontFamily="@font/coiny"
+                    android:textSize="20sp"/>
+
+                <Chronometer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chronometer_left"
+                    android:format="00:00:00"
+                    app:fontFamily="@font/coiny"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#AA00FF"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/left_start_bt"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_play"/>
+
+                    &lt;!&ndash;<ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/left_pause_bt"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_pause"/> &ndash;&gt;
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/left_stop_bt"
+                        android:layout_marginLeft="20dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_stop"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_round"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Right"
+                    android:id="@+id/right_tv"
+                    app:fontFamily="@font/coiny"
+                    android:textSize="20sp"/>
+
+                <Chronometer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chronometer_right"
+                    android:format="00:00:00"
+                    app:fontFamily="@font/coiny"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#AA00FF"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/right_start_bt"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_play"/>
+
+                    &lt;!&ndash;<ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/left_pause_bt"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_pause"/> &ndash;&gt;
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/right_stop_bt"
+                        android:layout_marginLeft="20dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_stop"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOTAL"
+            android:gravity="center"
+            android:paddingBottom="0dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="monospace"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="monospace"
+            android:textSize="25sp"/>
+
+        <Button
+
+            android:layout_marginTop="100dp"
+            android:text="Enter Manually"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:background="#AFB42B"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/cairo_semibold"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>-->
+</LinearLayout>
